@@ -18,3 +18,7 @@ function setColor(element) {
     const color = getRandomColor()
     element.style.background = color
 }
+
+function removeColor(element) {
+    element.style.background = '#1d1d1d'
+}
