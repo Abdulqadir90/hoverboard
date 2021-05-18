@@ -22,3 +22,7 @@ function setColor(element) {
 function removeColor(element) {
     element.style.background = '#1d1d1d'
 }
+
+function getRandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)]
+}
