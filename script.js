@@ -1,8 +1,8 @@
 const container = document.getElementById('container');
 const colors = ['#e74c3c', '#0000FF', '#FF0000', '#FFFF00', '#C0C0C0', '#5B1B51'];
-const SQUARES = 750;
+const SQUARES = 500;
 
-for(let i = 0; i < SQUARES; i++) {
+for (let i = 0; i < SQUARES; i++) {
     const square = document.createElement('div')
     square.classList.add('square')
 
